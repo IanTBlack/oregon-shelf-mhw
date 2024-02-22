@@ -1,6 +1,6 @@
 # oregon-shelf-mhw
 
-# THIS CODE AND METHODS IN THIS REPOSITORY WILL CHANGE DURING REVISION
+# The CODE AND METHODS IN THIS REPOSITORY WILL CHANGE DURING REVISION
 
 ## Usage
 The code provided in this repository is intended to be used with Jupyter Lab and is optimized for use on the OOI JupyterHub. However, local usage has been considered. It is recommended that you clone this repository to your user folder, since all processes reference a `oregon-shelf-mhw` folder within that folder. 

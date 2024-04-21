@@ -1,0 +1,11 @@
+fsspec
+gsw
+lxml
+matplotlib
+netCDF4
+numpy
+pandas
+requests
+scipy
+xarray
+

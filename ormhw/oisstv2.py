@@ -1,7 +1,6 @@
-from ormhw.core import OISSTV2_DIR, MAX_THREADS, BBox, CE04, BoundingBox
+from ormhw.core import OISSTV2_DIR, MAX_THREADS
 import os
 import xarray as xr
-import numpy as np
 import fsspec
 import requests
 import shutil
@@ -10,9 +9,7 @@ import warnings
 
 from datetime import datetime
 
-from itertools import groupby, repeat
-import matplotlib
-import matplotlib.pyplot as plt
+from itertools import repeat
 
 
 

@@ -1,12 +1,6 @@
-import fsspec
 import lxml.html
-import os
 import pandas as pd
 import requests
-from requests.compat import urljoin
-import shutil
-import urllib
-import xarray as xr
 
 
 def get_blobtracker() -> pd.DataFrame:
@@ -37,5 +31,4 @@ def get_blobtracker() -> pd.DataFrame:
         df = df.drop(columns = ['time'])
         return df
     else:
-        msg = 'Unable to connect to the Blobtracker Tool.'
-        raise ConnectionError(msg)
+        raise ConnectionError

@@ -1,7 +1,6 @@
 import os
 import xarray as xr
 
-
 def import_gebco(filepath: os.path, bounding_box: object) -> xr.Dataset:
     """
     This function will import a GEBCO file, slice it by latitude and longitude, and then recalculate depth as the inverse of elevation.

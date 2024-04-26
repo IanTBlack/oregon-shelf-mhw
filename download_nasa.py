@@ -4,14 +4,13 @@ from datetime import datetime
 import requests
 import time
 import shutil
-from ormhw.core import DATA_DIR, BBox
+from ormhw.core import BBox, L2_DIR
 
 year = int(sys.argv[1])
 
 
 def main():
-    save_directory = os.path.join(os.path.join(DATA_DIR,'nasa'),'L2')
-    os.makedirs(save_directory, exist_ok = True)
+    os.makedirs(L2_DIR, exist_ok = True)
     bdt = datetime(year,7,1)
     edt = datetime(year,10,15)
     remote_files = find_oc_files(bdt, edt, BBox)
@@ -44,7 +43,7 @@ def find_oc_files(begin_datetime, end_datetime, bounding_box):
 
 
 
-def download_oc_files(items, save_directory = f"{os.path.expanduser('~')}/data/nasa/L2", overwrite = False, verbose = True):
+def download_oc_files(items, save_directory = L2_DIR, overwrite = False, verbose = True):
     """
     Download OC L2 files as discovered with the find_oc_files function.
     """

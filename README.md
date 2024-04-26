@@ -15,7 +15,7 @@ Steps
     - `git clone https://github.com/IanTBlack/oregon-shelf-mhw.git`
 3. Create a new virtual environment.
    - `cd ~`
-   - `conda create -n ormhw python=3.11`
+   - `conda create -n ormhw python=3.12`
    - `conda activate ormhw`
    - `python -m ipykernel install --user --name ormhw --display-name "Python (ormhw)"`
 4. Install ooijh. ooijh is a Python package specifically built for the OOI JupyterHub that streamlines data access and analysis of OOI datasets.

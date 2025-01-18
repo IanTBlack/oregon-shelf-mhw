@@ -1,5 +1,8 @@
-## Bloom Compression by Marine Heatwaves Contemporary With the Oregon Upwelling Season
-## Black, I., Kavanaugh, M.T., and Reimers, C.E. -- In Revision
+## Bloom Compression Alongside Marine Heatwaves Contemporary With the Oregon Upwelling Season
+## Black, I., Kavanaugh, M.T., and Reimers, C.E. -- 2024
+
+https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12757
+
 ***
 ### Please use the repository [Issues](https://github.com/IanTBlack/oregon-shelf-mhw/issues) page for code issues or if items in this README need to be updated. All other correspondence can be directed toward Ian Black (blackia@oregonstate.edu).
 ***
